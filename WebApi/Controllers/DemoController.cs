@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
+using WebApi.InjectTest;
 using WebApi.Model;
 using WebApi.RequestForm;
 
@@ -19,14 +20,40 @@ namespace WebApi.Controllers
     {
         private IHostingEnvironment _env;
 
+        /// <summary>
+        /// 测试属性注入
+        /// </summary>
+        public Iperson iperson { get; set; }
+
         public DemoController(IHostingEnvironment env)
         {
-          
             _env = env;
         }
 
+        [HttpGet]
+        public ActionResult<string> GetName()
+        {
+            ResponseResult response = new ResponseResult();
+            response.Message = iperson.GetName();
+            return iperson.GetName();
+
+        }
+
         [HttpPost]
-        public ActionResult HelloWorld([FromBody]DemoForm demoForm)
+        public ActionResult GetName1()
+        {
+            ResponseResult response = new ResponseResult();
+            response.Message = iperson.GetName();
+            response.Code = ResponseResultType.Success;
+            DemoModel demo = new DemoModel();
+            demo.UserName = "1";
+            response.Data = demo;
+            return Content(response.ToJson());
+
+        }
+
+        [HttpPost]
+        public ActionResult HelloWorld(DemoForm demoForm)
         {
             ResponseResult response = new ResponseResult();
             DemoModel demoModel = new DemoModel();
@@ -39,7 +66,7 @@ namespace WebApi.Controllers
                 return Content(response.ToJson());
             }
 
-           
+            response.SerialNumber = "2";
             response.Code = ResponseResultType.Success;
             response.Message = _env.EnvironmentName;
             response.Data = demoModel;

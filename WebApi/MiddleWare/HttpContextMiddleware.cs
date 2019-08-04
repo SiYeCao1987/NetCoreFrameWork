@@ -81,7 +81,10 @@ namespace WebApi.MiddleWare
                                 JObject jObject = JObject.Parse(api.RequestBody);
                                 if (jObject["SerialNumber"] != null)
                                 {
-                                    serialNumber = jObject["SerialNumber"].ToString();
+                                    if (!string.IsNullOrEmpty(jObject["SerialNumber"].ToString()))
+                                    {
+                                        serialNumber = jObject["SerialNumber"].ToString();
+                                    }
                                 }
                             }
                         }

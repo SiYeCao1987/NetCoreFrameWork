@@ -1,0 +1,9 @@
+E:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Auth.deps.json
+E:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Auth.dll
+E:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Auth.pdb
+E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csproj.CoreCompileInputs.cache
+E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.AssemblyInfoInputs.cache
+E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.AssemblyInfo.cs
+E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.dll
+E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.pdb
+E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csprojAssemblyReference.cache

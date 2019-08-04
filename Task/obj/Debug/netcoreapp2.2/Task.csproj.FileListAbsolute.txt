@@ -1,0 +1,9 @@
+E:\NetCoreFrameWork\Task\bin\Debug\netcoreapp2.2\Task.deps.json
+E:\NetCoreFrameWork\Task\bin\Debug\netcoreapp2.2\Task.dll
+E:\NetCoreFrameWork\Task\bin\Debug\netcoreapp2.2\Task.pdb
+E:\NetCoreFrameWork\Task\obj\Debug\netcoreapp2.2\Task.csproj.CoreCompileInputs.cache
+E:\NetCoreFrameWork\Task\obj\Debug\netcoreapp2.2\Task.AssemblyInfoInputs.cache
+E:\NetCoreFrameWork\Task\obj\Debug\netcoreapp2.2\Task.AssemblyInfo.cs
+E:\NetCoreFrameWork\Task\obj\Debug\netcoreapp2.2\Task.dll
+E:\NetCoreFrameWork\Task\obj\Debug\netcoreapp2.2\Task.pdb
+E:\NetCoreFrameWork\Task\obj\Debug\netcoreapp2.2\Task.csprojAssemblyReference.cache

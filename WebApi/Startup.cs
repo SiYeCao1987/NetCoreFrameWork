@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Common.Autofac;
 using Common.Log4Net;
 using log4net;
 using log4net.Config;
@@ -10,8 +11,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using WebApi.MiddleWare;
@@ -51,11 +54,18 @@ namespace WebApi
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(o=> {
-            }
-            ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            //小写的Url路由模式
+            //services.AddRouting(o => { o.LowercaseUrls = true; });
+
+            //替换容器
+            services.Replace(ServiceDescriptor.Transient<IControllerActivator, ServiceBasedControllerActivator>());
+
+            //ioc容器初始化
+            return IocManager.Instance.Initialize(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,7 +83,7 @@ namespace WebApi
 
             //http请求中间件
             app.UseMiddleware<HttpContextMiddleware>();
-
+            
             app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();
