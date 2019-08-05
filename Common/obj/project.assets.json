@@ -6256,11 +6256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NetCoreFrameWork\\Common\\Common.csproj",
+      "projectUniqueName": "D:\\NetCoreFrameWork\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "E:\\NetCoreFrameWork\\Common\\Common.csproj",
+      "projectPath": "D:\\NetCoreFrameWork\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\syc\\.nuget\\packages\\",
-      "outputPath": "E:\\NetCoreFrameWork\\Common\\obj\\",
+      "outputPath": "D:\\NetCoreFrameWork\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Common.Autofac;
 using Common.Log4Net;
+using Core.Infrastructure.DataBase;
 using log4net;
 using log4net.Config;
 using Microsoft.AspNetCore.Builder;
@@ -12,6 +13,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -59,7 +61,11 @@ namespace WebApi
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             //小写的Url路由模式
-            //services.AddRouting(o => { o.LowercaseUrls = true; });
+            services.AddRouting(o => { o.LowercaseUrls = true; });
+
+            //注入sql上下文实例
+            services.AddDbContext<CoreDbContext>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("CoreConnection")));
 
             //替换容器
             services.Replace(ServiceDescriptor.Transient<IControllerActivator, ServiceBasedControllerActivator>());
@@ -83,7 +89,8 @@ namespace WebApi
 
             //http请求中间件
             app.UseMiddleware<HttpContextMiddleware>();
-            
+
+            app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();

@@ -7,3 +7,11 @@ E:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
 E:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.dll
 E:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.pdb
 E:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.csprojAssemblyReference.cache
+D:\NetCoreFrameWork\Common\bin\Debug\netcoreapp2.2\Common.deps.json
+D:\NetCoreFrameWork\Common\bin\Debug\netcoreapp2.2\Common.dll
+D:\NetCoreFrameWork\Common\bin\Debug\netcoreapp2.2\Common.pdb
+D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.csproj.CoreCompileInputs.cache
+D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cache
+D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
+D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.dll
+D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.pdb

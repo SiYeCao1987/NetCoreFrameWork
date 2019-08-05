@@ -6,3 +6,11 @@ E:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfoInputs.c
 E:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
 E:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.dll
 E:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.pdb
+D:\NetCoreFrameWork\Service\bin\Debug\netcoreapp2.2\Service.deps.json
+D:\NetCoreFrameWork\Service\bin\Debug\netcoreapp2.2\Service.dll
+D:\NetCoreFrameWork\Service\bin\Debug\netcoreapp2.2\Service.pdb
+D:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.csproj.CoreCompileInputs.cache
+D:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfoInputs.cache
+D:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
+D:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.dll
+D:\NetCoreFrameWork\Service\obj\Debug\netcoreapp2.2\Service.pdb

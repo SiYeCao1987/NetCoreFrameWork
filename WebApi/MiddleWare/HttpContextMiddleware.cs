@@ -116,7 +116,7 @@ namespace WebApi.MiddleWare
 
                         context.Response.Clear();
 
-                        using (var writer = new StreamWriter(response))
+                        using (var writer = new StreamWriter(response,System.Text.Encoding.UTF8))
                         {
                             await writer.WriteAsync(api.ResponseBody);
                             await writer.FlushAsync();

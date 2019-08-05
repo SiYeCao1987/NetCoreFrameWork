@@ -6,3 +6,17 @@ E:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
 E:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
 E:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.dll
 E:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.pdb
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Core.deps.json
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Core.dll
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Core.pdb
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.dll
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.pdb
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.csprojAssemblyReference.cache
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Core.runtimeconfig.json
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Core.runtimeconfig.dev.json
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Common.dll
+D:\NetCoreFrameWork\Core\bin\Debug\netcoreapp2.2\Common.pdb
+D:\NetCoreFrameWork\Core\obj\Debug\netcoreapp2.2\Core.csproj.CopyComplete

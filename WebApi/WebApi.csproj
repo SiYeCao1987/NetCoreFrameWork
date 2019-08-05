@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,5 +32,7 @@
   <ItemGroup>
     <Folder Include="Filter\" />
   </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1Pre_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

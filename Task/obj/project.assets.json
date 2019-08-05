@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NetCoreFrameWork\\Task\\Task.csproj",
+      "projectUniqueName": "D:\\NetCoreFrameWork\\Task\\Task.csproj",
       "projectName": "Task",
-      "projectPath": "E:\\NetCoreFrameWork\\Task\\Task.csproj",
+      "projectPath": "D:\\NetCoreFrameWork\\Task\\Task.csproj",
       "packagesPath": "C:\\Users\\syc\\.nuget\\packages\\",
-      "outputPath": "E:\\NetCoreFrameWork\\Task\\obj\\",
+      "outputPath": "D:\\NetCoreFrameWork\\Task\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
