@@ -15,3 +15,4 @@ D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cac
 D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
 D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.dll
 D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.pdb
+D:\NetCoreFrameWork\Common\obj\Debug\netcoreapp2.2\Common.csprojAssemblyReference.cache

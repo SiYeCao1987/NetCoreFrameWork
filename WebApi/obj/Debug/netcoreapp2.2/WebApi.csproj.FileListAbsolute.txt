@@ -25,7 +25,9 @@ D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
 D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
 D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
 D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\Common.dll
+D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\Core.dll
 D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\Common.pdb
+D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\Core.pdb
 D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
 D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
 D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
@@ -36,5 +38,3 @@ D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInf
 D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CopyComplete
 D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
 D:\NetCoreFrameWork\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
-D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\Core.dll
-D:\NetCoreFrameWork\WebApi\bin\Debug\netcoreapp2.2\Core.pdb

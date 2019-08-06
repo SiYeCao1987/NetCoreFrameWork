@@ -10,11 +10,6 @@ E:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csprojAssemblyReference.ca
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Auth.deps.json
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Auth.dll
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Auth.pdb
-D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csproj.CoreCompileInputs.cache
-D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.AssemblyInfoInputs.cache
-D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.AssemblyInfo.cs
-D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.dll
-D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.pdb
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Authentication.Abstractions.dll
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Authentication.dll
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -33,4 +28,10 @@ D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Logging.Ab
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Options.xml
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Primitives.xml
 D:\NetCoreFrameWork\Auth\bin\Debug\netcoreapp2.2\System.Text.Encodings.Web.xml
+D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csproj.CoreCompileInputs.cache
+D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.AssemblyInfoInputs.cache
+D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.AssemblyInfo.cs
 D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csproj.CopyComplete
+D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.dll
+D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.pdb
+D:\NetCoreFrameWork\Auth\obj\Debug\netcoreapp2.2\Auth.csprojAssemblyReference.cache

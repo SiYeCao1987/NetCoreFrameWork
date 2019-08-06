@@ -74,7 +74,7 @@ namespace WebApi.MiddleWare
                             api.RequestBody = await reader.ReadToEndAsync();
                             if (string.IsNullOrEmpty(api.RequestBody))
                             {
-                                await _next.Invoke(context);
+                                //await _next.Invoke(context);
                             }
                             else
                             {
@@ -110,7 +110,7 @@ namespace WebApi.MiddleWare
                             }
                             catch
                             {
-                                
+
                             }
                         }
 
@@ -144,6 +144,7 @@ namespace WebApi.MiddleWare
             {
                 context.Request.Body = request;
                 context.Response.Body = response;
+                
             }
 
             // 响应完成时存入缓存
